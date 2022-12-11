@@ -1,0 +1,37 @@
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    border: groove red 5px;
+    border-radius: 20px;
+    background-color: darkkhaki;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: mediumseagreen;
+    font-size: 24px;
+    
+}
+
+.grid_container {
+    width: 480px;
+    height: 480px;
+    border: groove 10px gray;
+    background-color: rgb(125,125,125);
+    display: grid;
+    gap: 1px;
+}
+
+.grid_item {
+    background-color: white;
+    transition: background-color 0.5s ease-out;
+}
+
