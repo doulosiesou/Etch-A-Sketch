@@ -22,8 +22,8 @@ button:hover {
 }
 
 .grid_container {
-    width: 640px;
-    height: 640px;
+    width: 480px;
+    height: 480px;
     border: groove 10px gray;
     background-color: rgb(125,125,125);
     display: grid;
