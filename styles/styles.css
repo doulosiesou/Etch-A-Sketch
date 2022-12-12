@@ -1,7 +1,7 @@
 body {
     background-color: cornflowerblue;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 40px;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,7 @@ body {
 
 button {
     width: 200px;
+    margin: 10px;
     border: groove red 5px;
     border-radius: 20px;
     background-color: darkkhaki;
@@ -21,13 +22,18 @@ button:hover {
     
 }
 
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
 .grid_container {
-    width: 720px;
-    height: 720px;
+    width: 640px;
+    height: 640px;
     border: groove 10px gray;
     background-color: rgb(125,125,125);
     display: grid;
-    gap: 2px;
+    gap: 1px;
 }
 
 .grid_item {
@@ -35,3 +41,6 @@ button:hover {
     transition: background-color 0.5s ease-out;
 }
 
+.options_text {
+    font-size: 36;
+}
