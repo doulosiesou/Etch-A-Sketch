@@ -28,13 +28,8 @@ button:hover {
 }
 
 .grid_container {
-<<<<<<< HEAD
-    width: 640px;
-    height: 640px;
-=======
     width: 480px;
     height: 480px;
->>>>>>> 673218b40df25eb600883144622c1071e1319dc1
     border: groove 10px gray;
     background-color: rgb(125,125,125);
     display: grid;
